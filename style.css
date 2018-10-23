@@ -1,0 +1,66 @@
+/* 
+RESET
+*/
+*{
+    /* Supprimer toutes les marges */
+    margin: 0;
+    padding: 0;
+
+    /* Intégrer les border et le padding dans la taille des balises */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* => 10px */
+}
+
+body{
+    font-size: 1.5rem; /* => 15px */
+}
+/**/
+
+/* 
+Formulaire
+*/
+
+
+form{
+    padding: 2rem;
+}
+
+input, button{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border: 1px solid rgb(202, 202, 202);
+}
+/**/
+
+
+article {
+    min-height: 20rem;
+    margin: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    min-height: 4rem;
+}
+
+article p{
+width: 40%;
+border: .1rem solid rgb(224, 222, 222);
+padding: 1rem;
+}
+
+article::after{
+content: '';
+clear: both;
+}
+
+.userMessage p{
+float: right;
+text-align: right;
+}
